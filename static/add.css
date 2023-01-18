@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@300&family=League+Gothic&family=Mochiy+Pop+P+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+            
+
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    
+
+}
+main{
+    height: 100vh;
+    display: flex;
+}
+.upper{
+    background-image: url('bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 18vh;
+}
+body{
+    max-height: 70%;
+}
+
+.nav nav ul{
+    display: flex;
+    margin-top: 8px; 
+    margin-left: 62%; 
+    padding: 0px 100px;
+    
+}
+.nav{
+    background-color: orange;
+    height: 6vh;
+    width: 100VW;
+}
+.nav nav ul li{
+    list-style: none;
+    overflow-y: hidden;
+
+}
+.nav nav ul li a{
+    
+    font-family: 'Bebas Neue', cursive;
+text-decoration: none;
+font-size: 20px;
+color: rgb(14, 15, 15);
+padding: 4px 4px;
+font-weight: bold;
+margin-left: 16px;
+margin-right: 16px;
+
+}
+ nav ul li a:hover{
+    color: white;
+    font-weight: bold;
+    text-shadow: aquamarine;
+    cursor: pointer;
+ }
+.logo{
+    height: 15vh;
+}
+.logo h1{
+    
+    font-size: 22px;
+    margin: 2px 2px;
+    display: flex;
+    color: rgb(0, 14, 15);
+    margin-top: 25px;
+}
+.logo2{
+    height: 90px;
+    width: 200px;
+    margin-top: 1px;
+    position: absolute;
+    left: 84%;
+    
+
+}
+.logo2 h3{
+    text-align: center;
+    margin-top: 2px;
+}
+.upper{
+    display: flex;
+    border-bottom: 1px solid black; 
+}
+.heading{
+    margin: 10px 0px 40px 400px;
+}
+.form{
+    margin: 0px 0px 0px 400px;
+}
+.form h3{
+    margin-top: 15px;
+}
+.form input{
+    width: 60%;
+    height:30px;
+    font-size: large;
+}

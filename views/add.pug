@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add page</title>
+    <link rel="stylesheet" href="../static/add.css">
+    <script src="https://kit.fontawesome.com/5713a95e7f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <header>
+        <div class="upper">
+            <div class="logo">
+                <h1>░▒▓█►─═ ᏢᏒᎾjᎬᏟᏆᎥfᎽ ═─◄█▓▒░</h1>
+
+            </div>
+            <div class="logo2">
+                <h3> 𝔸ℕ 𝕀ℕ𝕋𝔼𝔾ℝ𝔸𝕋𝔼𝔻 ℙ𝕃𝔸𝕋𝔽𝕆ℝ𝕄 𝔽𝕆ℝ ℂ𝕆ℕℕ𝔼ℂ𝕋𝕀𝕆ℕ 𝔸ℂℝ𝕆𝕊𝕊 ℂ𝕆𝕃𝕃𝔼𝔾𝔼𝕊</h3>
+
+            </div>
+        </div>
+        <div class="nav">
+            <nav>
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/view">VIEW</a></li>
+                    <li><a href="/logout">LOGOUT</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="heading">
+            <h1>ADD YOUR PROJECT DETAILS HERE:</h1>
+        </div>
+        <div class="center hideform">
+            <form action="/add" method="post" class="form">
+                <h3>Enter Your Project Name</h3>:<br>
+                <input type="text" name="projectname" class="name">
+                <br>
+                <h3>Enter Description About Project</h3>:<br>
+                <input type="text" id="desc" name="Description">
+                <br>
+                <h3>Enter Your Approach Towards Project</h3>:<br>
+                <input type="text" id="approach" name="approach">
+                <br>
+                <h3> Any References Regarding Project</h3>:<br>
+                <input type="text" id="references" name="reference">
+                <br>
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+</body>
+
+</html>

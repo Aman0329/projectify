@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@300&family=League+Gothic&family=Mochiy+Pop+P+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+*{    
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.uprsign{
+    
+    background-image: url('bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 18vh;
+    display: flex;
+    border-bottom: 1px solid black; 
+}
+.logo2{
+    height: 90px;
+    width: 200px;
+    margin-top: 1px;
+    position: absolute;
+    left: 84%;
+}
+.logo2 h3{
+    text-align: center;
+    margin-top: 2px;
+}
+.logo h1{
+    
+    font-size: 22px;
+    margin: 2px 2px;
+    display: flex;
+    color: rgb(0, 14, 15);
+    margin-top: 25px;
+}
+.nav nav ul{
+    display: flex;
+    margin-top: 8px; 
+    margin-left: 62%; 
+    padding: 0px 100px;
+}
+.nav{
+    background-color: orange;
+    height: 6vh;
+    width: 100VW;
+    overflow-y: hidden;
+}
+.nav nav ul li{
+ list-style: none;
+
+}
+.nav nav ul li a{
+    
+    font-family: 'Bebas Neue', cursive;
+text-decoration: none;
+font-size: 23px;
+color: rgb(14, 15, 15);
+padding: 4px 5px;
+font-weight: bold;
+margin-left: 18px;
+margin-right: 18px;
+overflow-x: hidden;
+}
+nav ul li a:hover{
+    color: white;
+    font-weight: bold;
+    text-shadow: aquamarine;
+    cursor: pointer;
+ }
+ .signup{
+    
+     border: 1px solid black;
+     width: 40vw;
+     height: 70vh;
+     justify-content: center;
+     margin: auto;
+     margin-top: 20PX;
+     background-color: rgb(130, 175, 179);
+     border-radius: 41px;
+     
+
+
+ }               
+ .buttons ul{
+     display: flex;
+     justify-content: center;
+     
+ }
+ .buttons ul li{
+     padding: 10px 14px;
+     font-family: 'Roboto', sans-serif;
+ }
+ .buttons ul li a{
+     text-decoration: none;
+     font-weight: bolder;
+     color:purple;
+ }
+ .buttons ul li a:hover{
+     color: white;
+     fill-opacity: inherit;
+ }
+ .brd{
+    border-right: 2px solid black;
+              padding: 2px 25px;
+ }
+ .container input{
+     display: inline;
+     width: 30vw;
+     height: 4vh;
+     padding: 3px;
+     margin: 10px;
+     border: 1px solid black;
+     border-radius: 12px;
+     font-family: 'Mochiy Pop P One', sans-serif;
+     font-weight: bold;
+     font-size: 12px;
+ }
+     .container{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+ }
+ .container button{
+     height: 45px;
+     width: 125px;
+     color: white;
+     font-size: large;
+     font-weight: bold;
+     background-color: blue;
+     border: 1PX solid black;
+     border-radius: 14px;
+     margin: 42px 0px;
+     cursor: pointer;
+ }
+ .container button:hover{
+     color: aqua;
+ }

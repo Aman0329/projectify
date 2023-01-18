@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@300&family=League+Gothic&family=Mochiy+Pop+P+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+            
+
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    
+
+}
+main{
+    height: 100vh;
+    display: flex;
+}
+.upper{
+    background-image: url('bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 18vh;
+}
+body{
+    max-height: 70%;
+}
+
+.nav nav ul{
+    display: flex;
+    margin-top: 8px; 
+    margin-left: 62%; 
+    padding: 0px 100px;
+    
+}
+.nav{
+    background-color: orange;
+    height: 6vh;
+    width: 100VW;
+}
+.nav nav ul li{
+    list-style: none;
+    overflow-y: hidden;
+
+}
+.nav nav ul li a{
+    
+    font-family: 'Bebas Neue', cursive;
+text-decoration: none;
+font-size: 20px;
+color: rgb(14, 15, 15);
+padding: 4px 4px;
+font-weight: bold;
+margin-left: 20px;
+margin-right: 16px;
+}
+ nav ul li a:hover{
+    color: white;
+    font-weight: bold;
+    text-shadow: aquamarine;
+    cursor: pointer;
+ }
+.logo{
+    height: 15vh;
+}
+.logo h1{
+    
+    font-size: 22px;
+    margin: 2px 2px;
+    display: flex;
+    color: rgb(0, 14, 15);
+    margin-top: 25px;
+}
+.logo2{
+    height: 90px;
+    width: 200px;
+    margin-top: 1px;
+    position: absolute;
+    left: 84%;
+    
+
+}
+.logo2 h3{
+    text-align: center;
+    margin-top: 2px;
+}
+.upper{
+    display: flex;
+    border-bottom: 1px solid black; 
+}
+.container{
+    overflow-y: hidden;
+}
+.vide02{
+
+    margin-left: 290px;
+    height: 100vh;
+    
+    
+}
+footer{
+    background-color: rgb(61, 58, 58);
+    height: 22vh;
+    display: flex;
+    margin-top: 75px;
+}
+.right{
+    display: block;
+    color: white;
+    margin: 5px;
+
+
+}
+.left {
+    display: block;
+    width: 70%;
+    margin-left: 7px;
+    color: white;
+    margin: 4px;
+}
+.fat{
+    color: wheat;
+}
+.left p{
+    margin-left: 12px;
+    
+}
+.disclaimer{
+    position: absolute;
+    left: 65%;
+    top: 30%;
+    height:60vh;
+    width: 30vw;
+    
+    
+}
+.content{
+    padding: 6px 4px;
+    font-size: larger;
+    
+}
+.content p{
+    padding: 16px 0px;
+}
+.heading h1{
+    color: orange;
+font-weight: bold;
+font-style: italic;
+font-family: 'Roboto Condensed', sans-serif;
+}
+#ABOUTUS{
+    position: absolute;
+    top: 100%;
+    border-top: 2px solid orange;
+    width: 98vw;
+    height: 50vh;
+    overflow-y: hidden;
+    
+}
+
+#ABOUTUS h1{
+    margin-left: 6px;
+    margin-top: 6px;
+    color: orange;
+    border-bottom: 1px solid black;
+
+}
+#ABOUTUS h2{
+    margin-left: 10px;
+    padding: 14px 2px;
+}
+#ABOUTUS h3{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 5px;
+    padding: 16px 0px;
+}
+#ABOUTUS h3:hover{
+
+    color: orange;
+    font-weight: bold;
+}
+.left h1{
+    border-bottom: 2px solid orange;
+    width: 20vw;
+    padding: 2px 0px 5px 0px;
+}
+.left h3{
+    padding-top: 5px;
+    border-bottom: 1px solid rgb(253, 251, 251);
+    width: 20vw;
+}
+.right h4{
+    padding-top: 6px;
+    border-bottom: 1px solid rgb(253, 251, 251);
+}
+.right h3{
+    padding-top: 6px;
+    border-bottom: 1px solid orange;
+}
+.hide{
+    border: 2px solid black;
+    position: absolute;
+    left: 85vw;
+    background-color: white;
+    padding: 3px 3px;
+    display: block;
+    width: 8vw;
+    top: 25vh;
+    
+}
+.hide li a{
+    text-decoration: none;
+    color: black;
+
+    font-weight: bold;
+    font-size: medium;
+}
+.hide li a:hover{
+    color: orange;
+}
+.hh button{
+    margin: 2px 30px;
+}
+#hm button a{
+    text-decoration: none;
+    padding: auto;
+    margin: 2px 5px;
+}
+.proj{
+    border: 2px solid black;
+    width: 7vw;
+    position: absolute;
+    left: 76vw;
+    top: 25vh;
+}
+.proj{
+    width: 8vw;
+}
+.proj ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    margin-left: 4px;
+}
+.proj ul li a:hover{
+    color: orange;
+}
+
+.hide a{
+    text-decoration: none;
+}
+.proj ul li{
+    margin-left: 7px;
+    font-weight: bold;
+    font-size: medium;
+}
+.aaaa{
+    visibility: hidden;
+}
+.aaa a:hover+.aaaa{
+color:aqua;
+visibility: visible;
+}
