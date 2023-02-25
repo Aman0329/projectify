@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "build":"webpack"
+    "build": "webpack"
   },
   "author": "aman",
   "license": "ISC",
@@ -30,7 +30,8 @@
     "passport-local-mongoose": "^7.0.0",
     "pug": "^3.0.2",
     "react-dev-utils": "^12.0.0",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "webpack": "^5.75.0"
   },
   "keywords": [
     "a"
