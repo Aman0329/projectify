@@ -35,5 +35,8 @@
   },
   "keywords": [
     "a"
-  ]
+  ],
+  "devDependencies": {
+    "webpack-cli": "^5.0.1"
+  }
 }
